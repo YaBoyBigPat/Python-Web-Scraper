@@ -1,10 +1,8 @@
 # Python-Web-Scraper
 
-Main python code is in the NBAData.ipynb
+The main python code is in the NBAData.ipynb
 
-This is my first python project following the video tutorial, "Web Scraping NBA Stats With Python: Data Project [Part 1 of 3]" on YouTube that attempts to scrape player data, making it readable and usable for machine learning. https://www.youtube.com/watch?v=JGQGd-oa0l4&t=704s
+This is my first python project following the video tutorial, "Web Scraping NBA Stats With Python: Data Project" on YouTube that attempts to scrape player data, clean it, and make it usable for machine learning. https://www.youtube.com/watch?v=JGQGd-oa0l4&t=704s
 
-I'm new to GitHub but I'm excited to post projects here. Even though this project was done with me following a YouTube tutorial, I ran into a good number of challenges and had to change a good bit of the code so it could work for me. This project helped me learn a ton of information about using python imports, pandas, and a couple web scraping techniques. I also learned a lot about communication through the command terminal. I plan on modifying it more so that I can make it my "own" project and have it scrape stock market data or consumer data.
-
-Java is the first language I learned and I'm fairly new to python, so I'll be making projects in both to improve my proficiency in both languages.
+Hello, I'm excited to post projects here! Even though this project was done with me following a YouTube tutorial, I ran into a good number of challenges and had to make some changes to the code so it could work for me. This project helped me learn about using python imports, pandas, and a couple of web scraping techniques. I also learned a lot about communication through the command terminal. I plan on modifying it more so that it can also be used in Tableau for data analysis, seeing which stat columns work together when trying to improve the model's accuracy.
 
