@@ -11,10 +11,10 @@ Even though this project was done by following a YouTube tutorial (I did my best
 
 # Quick Project Overview
 
--The data came from the website, "https://www.basketball-reference.com/" where I got player statistic data from 1992-2022.
--This data included stats from players like points per game, average minutes played per game, 3-point percentage, etc.
--The goal of this project is to (somewhat) accurately predict player's rankings using the data we've collected over the years.
--For example, in our data Steve Nash is ranked #1 for MVP in 2005, our regression model predicted him to be ranked #46, and our Random Forest model predicted him to be ranked #12. 
+- The data came from the website, "https://www.basketball-reference.com/" where I got player statistic data from 1992-2022.
+- This data included stats from players like points per game, average minutes played per game, 3-point percentage, etc.
+- The goal of this project is to (somewhat) accurately predict player's rankings using the data we've collected over the years.
+- For example, in our data Steve Nash is ranked #1 for MVP in 2005, our regression model predicted him to be ranked #46, and our Random Forest model predicted him to be ranked #12. 
 
 # Some problems I ran into and solved:
 1. Creating a different "years" list starting at 1992 because starting at 1991 gave a [429] error.
