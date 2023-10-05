@@ -4,9 +4,9 @@ The main python code is in the NBAData.ipynb
 
 Hello, I'm excited to post projects here!
 
-This is my first python project following the video tutorial from Dataquest, "Web Scraping NBA Stats With Python: Data Project" on YouTube that attempts to scrape player data, clean it, and make it usable for machine learning to see if we can accurately predict players MVP ranking. https://www.youtube.com/watch?v=JGQGd-oa0l4&t=704s
+This is my first python project following the idea from Dataquest, "Web Scraping NBA Stats With Python: Data Project" which attempts to scrape player data, clean it, and make it usable for machine learning to see if we can accurately predict players MVP ranking. https://www.youtube.com/watch?v=JGQGd-oa0l4&t=704s
 
-Even though this project was done by following a YouTube tutorial (I did my best to follow along line by line so I could thoroughly learn and understand the project). I ran into my own challenges with this project and had to make changes along the way so it could work for me (which I expand on more down below). This project helped me learn about using python imports, pandas, web scraping techniques, data cleaning, debugging, and machine learning. I also learned a lot about communication through the command terminal. I plan on modifying it more so that it can also be used in Tableau for data analysis, seeing which stat columns work together when trying to improve the model's accuracy.
+Even though this project was done by following a tutorial, I followed along line by line so I could thoroughly learn and understand the project. I ran into my own challenges with this project and had to make changes along the way so it could work for me (which I expand on more down below). This project helped me learn about using python imports, pandas, web scraping techniques, data cleaning, debugging, and machine learning. I also learned a lot about communication through the command terminal and using Git. I plan on modifying it more so that it can also be used in Tableau for data analysis, seeing which stat columns work together when trying to improve the model's accuracy.
 
 
 # Quick Project Overview
@@ -19,7 +19,7 @@ Even though this project was done by following a YouTube tutorial (I did my best
 # Some problems I ran into and solved:
 1. Creating a different "years" list starting at 1992 because starting at 1991 gave a [429] error.
 2. Making timers where I start to access the web page "https://www.basketball-reference.com/". That way I don't spam requests to the server and get an [429] error.
-3. When cleaning the data some player names are spelled differently and use different charters for example Peja Stojakovi'. His names looked like that in the MVP data, but for the player data his name was, 'Peja Stojaković', so when merging I was getting incorrect information. To fix this I replaced his name in the MVP data with how it's represented in the player data.
+3. When cleaning the data some player names are spelled differently and use different charters for example Peja Stojakovi'. His name looked like that in the MVP data, but for the player data his name was, 'Peja Stojaković', so when merging I was getting incorrect information. To fix this I replaced his name in the MVP data with how it's represented in the player data.
 4. Figuring out how to accurately run the Random Forest Regressor, playing around with the number of simulations and random states to try and improve accuracy. 
 
 # Project Insights:
