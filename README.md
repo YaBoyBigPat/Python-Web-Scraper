@@ -24,7 +24,7 @@ Even though this project was done by following a YouTube tutorial (I did my best
 
 # Project Insights:
 
-- Our error metric was about 81%
+ Our error metric was about 81%
 - The backtests mean accuracy precision (mean_ap) was, "0.7163491855092012", this is only using the original columns from the data I scraped: "predictors['Age','G','GS','MP','FG','FGA','FG%','3P','3PA','3P%','2P','2PA','2P%','eFG%','FT','FTA','FT%','ORB','DRB','TRB','AST','STL','BLK','TOV','PF','PTS','Year','W','L','W/L%','GB','PS/G','PA/G','SRS']"
 - To give the regression model more data and improve its accuracy, we created a lambda function that calculates the mean of these -columns above throughout the years of data we have.
 - These new columns are labeled "predictors += ["PTS_R", "AST_R", "BLK_R", "DRB_R", "GB_R", "W_R", "STL_R", "3P_R"]", and these columns are being added to the "predictors" list above.
