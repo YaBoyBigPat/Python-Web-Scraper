@@ -24,11 +24,11 @@ Even though this project was done by following a YouTube tutorial (I did my best
 
 # Project Insights:
 
--Our error metric was about 81%
--The backtests mean accuracy precision (mean_ap) was, "0.7163491855092012", this is only using the original columns from the data I scraped: "predictors['Age','G','GS','MP','FG','FGA','FG%','3P','3PA','3P%','2P','2PA','2P%','eFG%','FT','FTA','FT%','ORB','DRB','TRB','AST','STL','BLK','TOV','PF','PTS','Year','W','L','W/L%','GB','PS/G','PA/G','SRS']"
--To give the regression model more data and improve its accuracy, we created a lambda function that calculates the mean of these -columns above throughout the years of data we have.
--These new columns are labeled "predictors += ["PTS_R", "AST_R", "BLK_R", "DRB_R", "GB_R", "W_R", "STL_R", "3P_R"]", and these columns are being added to the "predictors" list above.
--This improved our backtest to, mean_ap = 0.7226465820837664.
--Running our Random Forest Regressor without these columns and starting are predictions at 1997 gives us a mean_ap of, "0.7340772475387858". When starting at a recent year our model becomes more accurate, starting at 2019 and adding the predictor columns we created gives us an accuracy of mean_ap = 0.8491117216117215.
--The accuracy for the past years was improved to around 73%, but there are modifications we can make to possibly improve it further. 
+- Our error metric was about 81%
+- The backtests mean accuracy precision (mean_ap) was, "0.7163491855092012", this is only using the original columns from the data I scraped: "predictors['Age','G','GS','MP','FG','FGA','FG%','3P','3PA','3P%','2P','2PA','2P%','eFG%','FT','FTA','FT%','ORB','DRB','TRB','AST','STL','BLK','TOV','PF','PTS','Year','W','L','W/L%','GB','PS/G','PA/G','SRS']"
+- To give the regression model more data and improve its accuracy, we created a lambda function that calculates the mean of these -columns above throughout the years of data we have.
+- These new columns are labeled "predictors += ["PTS_R", "AST_R", "BLK_R", "DRB_R", "GB_R", "W_R", "STL_R", "3P_R"]", and these columns are being added to the "predictors" list above.
+- This improved our backtest to, mean_ap = 0.7226465820837664.
+- Running our Random Forest Regressor without these columns and starting are predictions at 1997 gives us a mean_ap of, "0.7340772475387858". When starting at a recent year our model becomes more accurate, starting at 2019 and adding the predictor columns we created gives us an accuracy of mean_ap = 0.8491117216117215.
+- The accuracy for the past years was improved to around 73%, but there are modifications we can make to possibly improve it further. 
 
