@@ -4,9 +4,9 @@ The main python code is in the NBAData.ipynb
 
 Hello, I'm excited to post projects here!
 
-This is my first python project following the idea from Dataquest, "Web Scraping NBA Stats With Python: Data Project" which attempts to scrape player data, clean it, and make it usable for machine learning to see if we can accurately predict players MVP ranking. https://www.youtube.com/watch?v=JGQGd-oa0l4&t=704s
+This is my first python project following the idea from Dataquest, "Web Scraping NBA Stats With Python: Data Project" which attempts to scrape player data, clean it, and make it usable for machine learning to see if we can accurately predict players MVP ranking. https://www.youtube.com/watch?v=JGQGd-oa0l4&t=704s, I really want to give them credit for the idea.
 
-Even though this project was done by following a tutorial, I followed along line by line so I could thoroughly learn and understand the project. I ran into my own challenges with this project and had to make changes along the way so it could work for me (which I expand on more down below). This project helped me learn about using python imports, pandas, web scraping techniques, data cleaning, debugging, and machine learning. I also learned a lot about communication through the command terminal and using Git. I plan on modifying it more so that it can also be used in Tableau for data analysis, seeing which stat columns work together when trying to improve the model's accuracy.
+I ran into my own challenges with this project and had to make changes along the way so my variation of the project could work for me (which I expand on more down below). This project helped me learn about using python imports, pandas, web scraping techniques, data cleaning, debugging, and machine learning. I also learned a lot about communication through the command terminal and using Git. I plan on modifying it more so that it can also be used in Tableau for data analysis, seeing which stat columns work together when trying to improve the model's accuracy.
 
 
 # Quick Project Overview
