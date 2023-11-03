@@ -20,7 +20,7 @@ I ran into my own challenges with this project and had to make changes along the
 1. Creating a different "years" list starting at 1992 because starting at 1991 gave a [429] error.
 2. Making timers where I start to access the web page "https://www.basketball-reference.com/". That way I don't spam requests to the server and get an [429] error.
 3. When cleaning the data some player names are spelled differently and use different charters for example Peja Stojakovi'. His name looked like that in the MVP data, but for the player data his name was, 'Peja Stojaković', so when merging I was getting incorrect information. To fix this I replaced his name in the MVP data with how it's represented in the player data.
-4. Figuring out how to accurately run the Random Forest Regressor, playing around with the number of simulations and random states to try and improve accuracy. 
+4. Figuring out how to accurately run the Random Forest Regressor, experimenting with the number of simulations and random states to try and improve accuracy. 
 
 # Project Insights:
 
