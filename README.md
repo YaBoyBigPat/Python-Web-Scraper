@@ -1,20 +1,20 @@
-# Python-Web-Scraper
+# Python-Web-Scraper and Regression
 
 The main python code is in the NBAData.ipynb
 
-Hello, I'm excited to post projects here!
 
 This is my first python project following the idea from Dataquest, "Web Scraping NBA Stats With Python: Data Project" which attempts to scrape player data, clean it, and make it usable for machine learning to see if we can accurately predict players MVP ranking. https://www.youtube.com/watch?v=JGQGd-oa0l4&t=704s, I really want to give them credit for the idea.
 
 I ran into my own challenges with this project and had to make changes along the way so my variation of the project could work for me (which I expand on more down below). This project helped me learn about using python imports, pandas, web scraping techniques, data cleaning, debugging, and machine learning. I also learned a lot about communication through the command terminal and using Git. I plan on modifying it more so that it can also be used in Tableau for data analysis, seeing which stat columns work together when trying to improve the model's accuracy.
 
 
-# Quick Project Overview
+# Quick Project Overview and Purpose
 
+- The goal of this project is to accurately predict player's rankings using the data we've collected over the years.
+- For example, in our data Steve Nash is ranked #1 for MVP in 2005, our regression model predicted him to be ranked #46, and our Random Forest model predicted him to be ranked #12. We want our models to predict him as close to his actual rank as possible. 
 - The data came from the website, "https://www.basketball-reference.com/" where I got player statistic data from 1992-2022.
 - This data included stats from players like points per game, average minutes played per game, 3-point percentage, etc.
-- The goal of this project is to (somewhat) accurately predict player's rankings using the data we've collected over the years.
-- For example, in our data Steve Nash is ranked #1 for MVP in 2005, our regression model predicted him to be ranked #46, and our Random Forest model predicted him to be ranked #12. 
+ 
 
 # Some problems I ran into and solved:
 1. Creating a different "years" list starting at 1992 because starting at 1991 gave a [429] error.
